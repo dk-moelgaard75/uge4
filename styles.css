@@ -19,3 +19,37 @@ main > h1 {
   text-align: center;
   font-size: 3.5em;
 }
+main > h2 {
+    text-align: center;
+    font-size: 1.5em;
+    color: rebeccapurple;
+}
+subbody > h1 {
+    text-align: right;
+    color:greenyellow;
+}
+subbody > p {
+    position: absolute;
+    left: 100px;
+    top: 400px;
+    text-align: left;
+    color: forestgreen;
+}
+    subbody > p > span {
+        position: absolute;
+        display: block;
+        top: 25px;
+        text-align: center;
+        color: red;
+        font-size: 28px;
+    }
+
+subbody {
+    color: blue;
+}
+.ImOnMyOwn {
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+ 

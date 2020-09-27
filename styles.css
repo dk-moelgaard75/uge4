@@ -52,4 +52,10 @@ subbody {
     left: 100px;
     top: 100px;
 }
+.azuredata {
+    position: absolute;
+    left: 600px;
+    top: 600px;
+    color:purple;
+}
  

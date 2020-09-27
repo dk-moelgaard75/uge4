@@ -2,10 +2,12 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/azure.js"></script>
+    <title>Vanilla JavaScript App</title>
 </head>
 
 <body>
@@ -24,7 +26,7 @@
               this is a subbody paragraph span
           </span>
           <div class="ImOnMyOwn">
-              Im on my own
+              Im on my own <button type="button" onclick='getJson();'>Azure</button>
           </div>
       </p>
       <h2>
@@ -35,6 +37,9 @@
       Just a paragraph - looking for GitHub to build and deploy changes<br />
       Things are getting crowded 
   </p>
+    <div id="azuredata" class="azuredata">
+
+    </div>
 </body>
  
 </html>

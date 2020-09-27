@@ -7,7 +7,7 @@ function getJson() {
                 //var returnedData = JSON.parse(data);
                 var html = 'Name:' + data.name + ' - location:' + data.location
 
-                $('#azuredata').append(data);
+                $('#azuredata').append(html);
             }
         });
 }

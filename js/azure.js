@@ -4,8 +4,8 @@ function getJson() {
         {
             success: function (data, status, xhr) {// success callback function
 
-                var returnedData = JSON.parse(data);
-                var html = 'Name:' + returnedData.name + ' - location:' + returnedData.location
+                //var returnedData = JSON.parse(data);
+                var html = 'Name:' + data.name + ' - location:' + data.location
 
                 $('#azuredata').append(data);
             }
